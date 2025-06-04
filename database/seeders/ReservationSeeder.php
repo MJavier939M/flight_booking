@@ -39,6 +39,12 @@ class ReservationSeeder extends Seeder {
                 'passengers' => 1,
                 'notes' => 'Maleta extra'
             ],
+            [
+                'user_id' => $userIds[1],
+                'flight_id' => $flightIds[0],
+                'passengers' => 1,
+                'notes' => 'Maleta extra'
+            ]
         ]);
     }
 }

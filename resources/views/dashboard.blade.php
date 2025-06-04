@@ -10,6 +10,10 @@
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900">
                     {{ __("You're logged in!") }}
+                    <br>
+                    <a class="text-blue-400" href="{{route('flights.index')}}">Reservas de vuelos</a>
+                    <br><br>
+                    <a class="text-red-400" href="{{route('flights.reservas')}}">Nuevas reservas</a>
                 </div>
             </div>
         </div>
